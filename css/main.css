@@ -86,3 +86,15 @@ body{
 	border: 1px solid ;
 	opacity: 0.5;
 }
+/* Botón para twitear */
+.twitear {
+	background-color: #6AD2F3;
+	color: #FFF;
+	font-weight: bolder;
+	padding: 8px 15px 8px 15px;
+	border-width: 0px;
+	margin-left: 15px;
+	margin-top: 40px;
+	
+
+}
