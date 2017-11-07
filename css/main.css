@@ -6,7 +6,7 @@ body{
 	background-attachment: fixed;
 
 }	
-
+/* contenedor encabezado*/
 .titular{
 	background-color: #6AD2F3;
 	color: #fff;
@@ -17,14 +17,18 @@ body{
 	margin-top: -22px;
 	margin-left: -8px;
 }
+/* texto encabezado*/
 .titular h1{
 	padding: 15px;
 }
 
+/* seccion principal */
+/* Fondo*/
 .fondo {
 	margin-top: 125px;
 }
 
+/* cuadro 1 con datos usuario*/
 .cuadro1{
 	background-color: #fff;
 	width: 500px;
@@ -55,4 +59,30 @@ body{
 	font-weight: bolder;
 	padding: 10px;
 	padding-top: 40px;
+}
+/* cuadro 2 zona para twit */
+.cuadro2{
+	background-color: #fff;
+	width: 500px;
+	height: 250px;
+	display: inline-block;
+	float: right;
+	margin-right: 120px;
+	margin-top: -20px;
+}
+
+/* Formulario contador */
+#twitear td{
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-right: 15px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+#twitear hr {
+	color: #A5A4A4;
+	padding: 0px;
+	border: 1px solid ;
+	opacity: 0.5;
 }

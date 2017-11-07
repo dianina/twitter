@@ -9,25 +9,48 @@
 </head>
 <body>
 	<header>
+		 <!-- Encabezado -->
 		<div id class="titular">
 			<h1>Twitter</h1>
 		</div>
 	</header>
 	<section>
+		<!-- Sección principal  -->
+		<!-- Fondo -->
 		<div id="principal">
 			<div id class="fondo"></div>
-		<div id="dato_usuario" id class="cuadro1">
+		<!-- cuadro 1 con datos usuario -->
+			<div id="dato_usuario" id class="cuadro1">
 			<h1>Reto de código</h1>
 			<h2>Hola,<br>soy front-end developer jr.</h2>
 			<hr>
 			<p>CÓDIGO</p>
 		</div>
-
-
 		</div>
-		
 	</section>
-
+	<section>
+		<!-- cuadro 2 zona para twit -->
+		<div id class="tweet">
+			<div id="twitear" id class="cuadro2">
+		<!-- Formulario contador -->
+			<form action="#" method="post"> 
+				<table> 
+					<tr> 
+   					<td>¿Qué estás pensando?</td> 
+   					<td><textarea cols="40" rows="5" name="texto" onKeyDown="valida_longitud()" onKeyUp="valida_longitud()"></textarea></td> 
+					</tr> 
+					<tr> 
+   					<td>Caracteres:</td> 
+   					<td><input type="text" name=caracteres size=4></td> 
+					</tr> 
+				</table> 
+			</form>
+			<hr>
+			<button id="tuit" class="twitear">TWEET</button>	
+		</div>
+			
+		</div>
+	</section>
 
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
