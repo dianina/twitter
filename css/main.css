@@ -17,11 +17,42 @@ body{
 	margin-top: -22px;
 	margin-left: -8px;
 }
-h1{
+.titular h1{
 	padding: 15px;
 }
 
 .fondo {
 	margin-top: 125px;
-	
+}
+
+.cuadro1{
+	background-color: #fff;
+	width: 500px;
+	height: 250px;
+	display: inline-block;
+	float: left;
+	margin-left: 90px;
+	margin-top: -20px;
+}
+
+.cuadro1 h1{
+	padding-left: 10px;
+}
+.cuadro1 h2{
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+#principal hr{
+	color: #A5A4A4;
+	padding: 0px;
+	border: 1px solid ;
+	opacity: 0.5;
+
+}
+.cuadro1 p{
+	color: #006DBF;
+	font-weight: bolder;
+	padding: 10px;
+	padding-top: 40px;
 }
