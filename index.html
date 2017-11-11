@@ -33,26 +33,26 @@
 		<div id class="tweet">
 			<div id="twitear" id class="cuadro2">
 		<!-- Formulario contador -->
-		<table>
-			<form>
-            	<div class="form-group">
-                	<label>¿Qué estás pensando?</label>
-                	<textarea class="form-control" rows="5"  onkeyup="count_down(this);">
-                		
-                	</textarea>
-                <span class="text-muted pull-right" id="count2">140</span>
-            </div>
-        </form>
-        <!-- Boton Tweet -->
-			<tr>
-				<td><input type="submit" value="Tweet">
-				</td>
-				<td><input type="reset" value="Limpiar" name="limpiar"></td>
-			</tr>
-		<!-- contenedor comentarios -->
-			<div id="cont_comm"></div>
-		</table>
-			</div>
+			<form action="#" method="post"> 
+				<table> 
+					<tr> 
+   					<td>¿Qué estás pensando?</td> 
+   					<td><textarea cols="40" rows="5" name="texto" onKeyDown="valida_longitud()" onKeyUp="valida_longitud()"></textarea></td> 
+					</tr> 
+					<tr> 
+   					<td></td> 
+   					<td><input type="text" name=caracteres size=4></td> 
+					</tr> 
+				</table> 
+				<hr>
+		<!-- Botón para twitear -->
+				<button type="submit" id="btn" disabled="disabled">TWEET</button>
+  		 
+			</form>
+			
+	
+		</div>
+			
 		</div>
 	</section>
 
