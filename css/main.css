@@ -11,7 +11,7 @@ body{
 	background-color: #6AD2F3;
 	color: #fff;
 	text-align:center;
-	height: 100px;
+	height: 60px;
 	width: 1280px;
 	position: relative;	
 	margin-top: -22px;
@@ -72,29 +72,43 @@ body{
 }
 
 /* Formulario contador */
-#twitear td{
+#twitear label{
 	padding-left: 15px;
-	padding-top: 5px;
+	padding-top: 20px;
 	padding-right: 15px;
+	margin-top: 75px;
 	font-weight: bolder;
 	font-size: 18px;
+	float: left;
 }
 
-#twitear hr {
-	color: #A5A4A4;
-	padding: 0px;
-	border: 1px solid ;
-	opacity: 0.5;
+#twitear textarea {
+	padding-top: 10px;
+	margin-top: 30px;
+	margin-right: 5px;
 }
+
 /* Botón para twitear */
-.twitear {
-	background-color: #6AD2F3;
-	color: #FFF;
+
+input[type="submit" i]{
 	font-weight: bolder;
 	padding: 8px 15px 8px 15px;
 	border-width: 0px;
-	margin-left: 15px;
-	margin-top: 40px;
-	
+	margin-left: 20px;
+	margin-top: 5px;
+	background-color: #6AD2F3;
+	color: #FFF;
+	float: left;
+}
 
+input[type="reset" i]{
+	font-weight: bolder;
+	padding: 8px 15px 8px 15px;
+	border-width: 0px;
+	margin-left: 20px;
+	margin-top: 8px;
+	background-color: grey;
+	color: #000;
+	float: right;
+	border: none;
 }
