@@ -28,6 +28,9 @@ function cuenta(){
 
 
 
+
+
+
 // Botón para twitear
 //function operacion(){
 //if(x==0){
